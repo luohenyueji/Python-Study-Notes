@@ -1,0 +1,1 @@
+测试图像来自于face_recognition官方代码仓库的examples文件夹，地址[face_recognition/examples](https://github.com/ageitgey/face_recognition/tree/master/examples)

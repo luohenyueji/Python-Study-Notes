@@ -1,0 +1,10 @@
+_BASE_: ../Base-bagtricks.yml # 链接父目录下的Base-bagtricks.yml
+
+DATASETS:
+  NAMES: ("Market1501",) # 数据集路径
+  TESTS: ("Market1501",) # 测试集路径
+
+OUTPUT_DIR: logs/market1501/bagtricks_R50 # 输出结果路径
+
+MODEL:
+  WEIGHTS: model/market_bot_R50.pth # 预训练模型路径
